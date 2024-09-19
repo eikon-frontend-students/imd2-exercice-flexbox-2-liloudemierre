@@ -12,3 +12,82 @@ img,
 video {
   display: block;
 }
+
+.section {
+  background: #ebead2;
+  margin: 30px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  display: flex;
+  width: 1698px;
+}
+.box {
+  background: #fff;
+  border: 1px solid #979797;
+  height: 75px;
+  width: auto;
+  font-family: Lato;
+  font-size: 50px;
+  text-align: center;
+  width: auto;
+  font-weight: 700;
+}
+.section-1 {
+  flex-wrap: nowrap;
+}
+.section-1 .box {
+  width: 424px;
+}
+.section-2 {
+  flex-wrap: wrap;
+}
+
+.section-2 .box {
+  width: 50%;
+}
+.section-3 .box {
+  width: 100px;
+}
+.section-3 {
+  gap: 30px;
+  justify-content: center;
+}
+
+.section-4 {
+  flex-wrap: wrap;
+  gap: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+  justify-content: center;
+}
+
+.section-4 .box {
+  width: 804px;
+}
+
+.section-5 {
+  justify-content: end;
+  gap: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.section-5 .box {
+  width: 100px;
+}
+.section-5 .box:nth-child(2) {
+  height: 148.026px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.section-5 .box:nth-child(3) {
+  height: 98.684px;
+  padding-top: 30x;
+  padding-bottom: 15px;
+}
+
+.section-5 .box:nth-child(4) {
+  height: 197.368px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
